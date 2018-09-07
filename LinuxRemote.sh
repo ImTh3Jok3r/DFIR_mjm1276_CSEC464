@@ -5,4 +5,4 @@ read user
 echo "Insert Target: "
 read target
 
-ssh $user@$target 'bash -s' < LinuxForensics.sh
+ssh $user@$target 'bash -s' < LinuxForensics.sh > ForensicsResults.txt
